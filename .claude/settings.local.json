@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp -r c:/Users/yuanchima/SynologyDrive/Code/openfast/docs/source/user/elastodyn/exampleInput/* c:/Users/yuanchima/SynologyDrive/Code/openfast/docs_zh/source/user/elastodyn/exampleInput/)",
+      "Bash(cp -r c:/Users/yuanchima/SynologyDrive/Code/openfast/docs/source/user/elastodyn/figs/* c:/Users/yuanchima/SynologyDrive/Code/openfast/docs_zh/source/user/elastodyn/figs/)",
+      "Bash(cp -r /c/Users/yuanchima/SynologyDrive/Code/openfast/docs/source/user/fast.farm/Pictures/* /c/Users/yuanchima/SynologyDrive/Code/openfast/docs_zh/source/user/fast.farm/Pictures/)",
+      "Bash(cp -r /c/Users/yuanchima/SynologyDrive/Code/openfast/docs/source/user/fast.farm/examples/* /c/Users/yuanchima/SynologyDrive/Code/openfast/docs_zh/source/user/fast.farm/examples/)",
+      "Bash(cp docs/conf.py docs_zh/)",
+      "Bash(cp docs/Makefile docs_zh/)",
+      "Bash(cp docs/requirements.txt docs_zh/)",
+      "Bash(cp -r docs/_static docs_zh/)",
+      "Bash(uv venv *)",
+      "Bash(uv run *)",
+      "Bash(uv python *)",
+      "Bash(rm -rf .venv)",
+      "Bash(uv pip *)",
+      "Bash(grep -n '`k`\\\\b\\\\|`f`\\\\b' \"c:/Users/yuanchima/SynologyDrive/Code/openfast/docs_zh/source/user/aerodyn-olaf/OLAFTheory.rst\")",
+      "Bash(grep -n 'k_\\\\| f_\\\\|`k`' \"c:/Users/yuanchima/SynologyDrive/Code/openfast/docs_zh/source/user/aerodyn-olaf/OLAFTheory.rst\")",
+      "Bash(python -m sphinx -b html -d _build/doctrees . _build/html)"
+    ]
+  }
+}
